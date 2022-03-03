@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<scene id="1">
+	<attribute name="Name" value="" />
+	<attribute name="Time Scale" value="1.000000" />
+	<attribute name="Smoothing Constant" value="50.000000" />
+	<attribute name="Snap Threshold" value="5.000000" />
+	<attribute name="Elapsed Time" value="0.000000" />
+	<attribute name="Next Replicated Node ID" value="2" />
+	<attribute name="Next Replicated Component ID" value="3" />
+	<attribute name="Next Local Node ID" value="16777218" />
+	<attribute name="Next Local Component ID" value="16777220" />
+	<attribute name="Variables" />
+	<attribute name="Variable Names" value="" />
+	<attribute name="Lightmaps" value="Texture2D" />
+	<component type="Octree" id="1" />
+	<component type="EditorSceneSettings" id="16777216">
+		<attribute name="Camera Position" value="0 5 10" />
+		<attribute name="Camera Rotation" value="0 0 0.973249 -0.229753" />
+	</component>
+	<component type="RenderPipeline" id="2" />
+</scene>

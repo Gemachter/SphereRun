@@ -1,0 +1,15 @@
+{
+	"pipeline": {
+		"flavors": [
+			{
+				"name": "default",
+				"settings": []
+			}
+		]
+	},
+	"resourcePaths": [
+		"Resources/",
+		"CoreData/"
+	],
+	"version": 1
+}

@@ -1,0 +1,8 @@
+CMakeLists.txt.user
+Project/StringHashNames.json
+Project/Cache
+Project/CoreData
+Project/.snapshot.png
+.kdev4
+*-swp
+*.swp
