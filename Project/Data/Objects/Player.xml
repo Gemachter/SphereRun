@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<scene id="1">
+	<attribute name="Name" value="Player" />
+	<attribute name="Time Scale" value="1.000000" />
+	<attribute name="Smoothing Constant" value="50.000000" />
+	<attribute name="Snap Threshold" value="5.000000" />
+	<attribute name="Elapsed Time" value="0.000000" />
+	<attribute name="Next Replicated Node ID" value="70" />
+	<attribute name="Next Replicated Component ID" value="82" />
+	<attribute name="Next Local Node ID" value="16777266" />
+	<attribute name="Next Local Component ID" value="16777292" />
+	<attribute name="Variables" />
+	<attribute name="Variable Names" value="" />
+	<attribute name="Lightmaps" value="Texture2D" />
+	<component type="Octree" id="2" />
+	<component type="EditorSceneSettings" id="16777216">
+		<attribute name="Camera Position" value="-2.09844 2.75417 -2.06501" />
+		<attribute name="Camera Rotation" value="0.893998 0.273685 0.339251 -0.103792" />
+	</component>
+	<component type="RenderPipeline" id="3" />
+	<component type="PhysicsWorld" id="6" />
+	<node id="2">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Player" />
+		<attribute name="Tags">
+			<string value="Player" />
+		</attribute>
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<node id="5">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Head" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0 0.7 0.0901322" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="Camera" id="10">
+				<attribute name="Aspect Ratio" value="1.600000" />
+				<attribute name="View Mask" value="2147483647" />
+			</component>
+			<component type="Light" id="42">
+				<attribute name="Range" value="0.800000" />
+			</component>
+			<component type="SoundListener" id="54" />
+			<node id="25">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Hand" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.149827 -0.120453 0.460474" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="Light" id="47">
+					<attribute name="Brightness Multiplier" value="0.750000" />
+					<attribute name="Range" value="0.500000" />
+				</component>
+			</node>
+		</node>
+	</node>
+</scene>
