@@ -30,6 +30,7 @@ set(URHO3D_SAMPLES OFF)
 set(URHO3D_TOOLS OFF)
 set(URHO3D_URHO2D OFF)
 set(URHO3D_WEBP OFF)
+set(URHO3D_URHO2D OFF)
 add_subdirectory(rbfx)
 
 # rbfx easyscript
