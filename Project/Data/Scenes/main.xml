@@ -58,7 +58,7 @@
 		<attribute name="Rotation" value="1 0 0 0" />
 		<attribute name="Scale" value="1 1 1" />
 		<attribute name="Variables">
-			<variant hash="1310721695" type="String" value="Player" />
+			<variant name="Object" type="String" value="Player" />
 		</attribute>
 	</node>
 </scene>
