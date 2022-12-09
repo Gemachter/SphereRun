@@ -11,7 +11,6 @@ class Player;
 #include <Urho3D/Scene/Node.h>
 #include <Urho3D/Scene/LogicComponent.h>
 #include <Urho3D/Physics/RigidBody.h>
-#include <Urho3D/Physics/KinematicCharacterController.h>
 #include <Urho3D/Physics/PhysicsEvents.h>
 #include <Urho3D/Physics/PhysicsWorld.h>
 
@@ -28,12 +27,6 @@ class Player final : public LogicComponent {
     static constexpr float walkSpeed = 1.6f;
 
     LevelManager *levelManager;
-    Node *head;
-    Node *handP;
-    Node *hand = nullptr;
-
-    CollisionShape* collisionShape;
-    KinematicCharacterController* kinematicController;
 
 public:
     using LogicComponent::LogicComponent;
@@ -41,13 +34,6 @@ public:
     void Start() override;
     void FixedUpdate(float timeStep) override;
     void Update(float timeStep) override;
-
-    Node *getHand() {
-        return hand;
-    }
-    Node *getHead() {
-        return head;
-    }
 };
 }
 #endif // PLAYER_HPP

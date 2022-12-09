@@ -1,15 +1,4 @@
 {
-	"pipeline": {
-		"flavors": [
-			{
-				"name": "default",
-				"settings": []
-			}
-		]
-	},
-	"resourcePaths": [
-		"Data/",
-		"CoreData/"
-	],
-	"version": 1
+	"LaunchManager": {},
+	"PluginManager": {}
 }
