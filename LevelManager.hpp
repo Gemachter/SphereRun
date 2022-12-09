@@ -24,19 +24,19 @@ class LevelManager : public SceneManager {
 public:
     using SceneManager::SceneManager;
 
-    void reloadLevel() {
-        loadScene("Scenes/"+level+".xml");
+    void ReloadLevel() {
+        LoadScene("Scenes/"+level+".xml");
     }
-    void loadLevel(eastl::string nlevel) {
+    void LoadLevel(eastl::string nlevel) {
         level = nlevel;
-        reloadLevel();
+        ReloadLevel();
     }
 
     void Start() {
         Variant v;
         v.SetCustom<LevelManager*>(this);
         app->SetGlobalVar("LevelManager", v);
-        reloadLevel();
+        ReloadLevel();
     }
 };
 }
